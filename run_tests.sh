@@ -1,5 +1,4 @@
 #!/bin/bash
-
 WEBHOOK_URL="https://webhook-test.example.com/catch/test-ye75urv4"
 curl -X POST "$WEBHOOK_URL" \
     -H "Content-Type: application/json" \
